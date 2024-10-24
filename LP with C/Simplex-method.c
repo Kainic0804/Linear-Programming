@@ -9,7 +9,6 @@ double tabular[MaxConstrains + 1][MaxVariables + MaxConstrains + 1]; // Số lư
 int main(){
     int n, m;  // Số biến và số ràng buộc
     scanf("%d %d", &n, &m);
-    double mangluuhammuctieu[n];
 
     // Nhập giá trị hàm mục tiêu C
     for(int k = 1; k <= n; k++){
